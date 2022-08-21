@@ -1,0 +1,4 @@
+name: FairDurability
+version: 1.0-SNAPSHOT
+main: io.fairy.durability.FairDurabilityPlugin
+author: LeeGod
