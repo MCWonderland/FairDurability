@@ -33,7 +33,6 @@ object DurabilityHandler : Listener {
         val item = event.item
         val damage = event.damage
 
-        println("${item.type} $damage")
         if (item.durabilityLevel > 0) {
             val new = handleItemDamage(item, damage)
             if (new >= item.type.maxDurability) {
